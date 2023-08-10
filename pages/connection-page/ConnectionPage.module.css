@@ -1,0 +1,195 @@
+.nkWrapper {
+    height: 95vh;
+    background-color: #f8f9fa;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.nkWrapper .nkWrapperTitDec {
+    padding: 10px 50px;
+}
+
+.nkBoxMapText {
+    height: 70vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.nkBoxForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nkBoxForm Input {
+    padding: 7px 5px 7px 100px;
+    border: none;
+    border-radius: 5px;
+    /*box-shadow: rgba(100, 100, 80, 0.2) 0px 7px 10px 0px;*/
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.nkBoxForm label {
+    background-color: orange;
+    padding: 0 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.nkBoxDec label {
+    margin-top: 10px;
+}
+
+
+.nkBoxDec .nkInputDec {
+    width: 100%;
+    margin-top:10px;
+    height: 120px;
+    border:none;
+    border-radius: 5px;
+    /*box-shadow: rgba(100, 100, 80, 0.2) 0px 7px 10px 0px;*/
+    outline: none;
+}
+
+.nkBoxAttach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nkBoxAttach .nkAttach {
+    margin-top: 10px;
+}
+
+
+.nkBoxAttach  label {
+    /*background-color: #999;*/
+    padding: 7px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.nkBoxAttach p {
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+
+
+
+.nkBoxBtn {
+    display: flex;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.nkBoxBtn button {
+    border: none;
+    font-size: 0.8rem;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+.nkBoxAddress {
+    margin-top: 100px;
+    display: flex;
+}
+.nkBoxAddress h6 {
+   color: #777;
+    font-size: 0.8rem;
+}
+
+.PhoneEmail {
+    margin-top: 50px;
+    color: #777;
+}
+
+@media (max-width: 480px){
+
+    .nkWrapper {
+        height: 180vh;
+        width: 100%;
+    }
+    .nkBoxForm {
+       flex-direction: column;
+    }
+
+    .nkBoxForm .Input {
+        margin-top: 20px;
+        padding: 7px 50px;
+    }
+
+    .nkBoxForm label {
+        margin-top: 10px;
+        padding: 5px 100px;
+    }
+    .nkBoxMapText {
+        margin-top: 5px;
+    }
+
+
+
+    .nkWrapper {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .nkWrapper .nkWrapperTitDec {
+        text-align: center;
+    }
+
+    .nkWrapper .nkWrapperTitDec h5 {
+        font-size: 1rem;
+    }
+
+    .nkWrapper .nkWrapperTitDec p {
+        font-size: 0.8rem;
+    }
+
+    .nkBoxAttach {
+        flex-direction: column;
+    }
+
+    .nkBoxForm .Input {
+        padding: 7px;
+        width: 100%;
+    }
+
+
+    .nkBoxForm .nkCodeS {
+        margin-top: 10px;
+    }
+
+    .nkBoxBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nkBoxAddress {
+        margin-top: 20px;
+        display: flex;
+    }
+    .PhoneEmail {
+        margin-top: 10px;
+    }
+
+    .PhoneEmail div {
+        font-size: 0.7rem;
+    }
+
+}
+
+
+
